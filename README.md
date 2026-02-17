@@ -1,5 +1,6 @@
 # TruthLens AI – Fake News Classification using NLP & Deep Learning
 
+A comparative NLP project that analyzes classical machine learning and deep learning approaches for fake news detection.
 TruthLens AI is a Natural Language Processing (NLP) project that classifies news articles as Real or Fake using both classical machine learning and deep learning techniques.
 
 This project compares TF-IDF + Logistic Regression with LSTM-based Deep Learning, highlighting differences in performance and modeling approaches.
@@ -56,6 +57,17 @@ Data Loading
 - ROC Curve & AUC
 - Model comparison visualization
 
+🔬 Model Comparison
+
+| Model | Approach | Strength |
+|-------|----------|----------|
+| Logistic Regression | TF-IDF | Strong baseline, fast and efficient |
+| LSTM | Sequential Deep Learning | Captures contextual dependencies |
+| Bidirectional LSTM | Enhanced Sequential Modeling | Learns context from both directions |
+
+This comparative study highlights the importance of evaluating multiple approaches before selecting a final deployment model.
+
+
 📈 Key Insights
 
 - TF-IDF + Logistic Regression provides a strong and reliable baseline.
@@ -73,6 +85,16 @@ Data Loading
 - Matplotlib
 - Seaborn
 
+▶️ How to Run
+
+1. Clone the repository  
+2. Install required libraries  
+3. Download the dataset from Kaggle  
+4. Run the notebook `truthlens_fake_news_classifier.ipynb`  
+5. Train models and compare results  
+
+Python 3.9+ recommended.
+
 📌 Project Structure
 TruthLens-AI/
 │
@@ -83,9 +105,18 @@ TruthLens-AI/
 ├── truthlens_fake_news_classifier.ipynb
 └── README.md
 
+📚 Key Learnings
+
+- Importance of preprocessing in NLP pipelines.
+- Differences between classical ML and deep learning approaches.
+- How sequence models capture contextual relationships.
+- Handling shape mismatches and debugging neural network errors.
+- Evaluating models beyond accuracy using precision, recall, F1-score, and ROC curves.
+
 🎯 Final Outcome
 
 - This project demonstrates a complete NLP classification pipeline, from preprocessing to deep learning, with a comparative analysis of classical and neural approaches.
 
 Author:
-Pulkit Chhabra
+Pulkit Chhabra 
+Machine Learning & NLP Enthusiast
